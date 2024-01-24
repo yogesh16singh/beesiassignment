@@ -1,0 +1,342 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+h1{
+  display: flex;
+  color: blanchedalmond;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 180px;
+}
+.font{
+  font-weight: bolder;
+  font-size: 20px;
+}
+.Ellipse2 {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background: #714fff;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.Ellipse4 {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background: #714fff;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Ellipse1 {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background: #714fff;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Ellipse3 {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background: #714fff;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .Ellipse1 {
+    margin: 0;
+  }
+}
+
+.arrow1 {
+  height: 150px;
+  margin-top: 100px;
+}
+
+.arrow2 {
+  height: 150px;
+  margin-top: 100px;
+  margin-left: 20px;
+  transform: rotate(65deg);
+}
+
+.arrow3 {
+  height: 150px;
+  margin-top: 140px;
+  margin-left: 20px;
+  transform: scaleY(-1) rotate(70deg);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .arrow1 {
+    transform: rotate(125deg);
+    margin: 50px;
+  }
+  .arrow2 {
+    transform: rotate(120deg);
+    margin-top: 70px;
+  }
+  .Ellipse3 {
+    margin-top: 80px;
+  }
+  .Ellipse4 {
+    margin-top: 77px;
+  }
+  .arrow3 {
+    transform: rotate(120deg);
+    margin-top: -110px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 746px) {
+  .arrow3 {
+    margin-right: 20px;
+    height: 150px;
+    margin-top: 4px;
+    margin-left: 34px;
+    transform: scaleY(-1) rotate(18deg);
+  }
+  .Ellipse3 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background: #714fff;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 163px;
+    margin-top: -62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrow2 {
+    height: 276px;
+    margin-top: 279px;
+    position: relative;
+    margin-left: -401px;
+    transform: rotate(165deg);
+  }
+  .Ellipse4 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background: #714fff;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .Ellipse2 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background: #714fff;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 746px) and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+  .arrow1 {
+    transform: rotate(125deg);
+    margin: 50px;
+  }
+  .arrow2 {
+    transform: rotate(120deg);
+    margin-top: 70px;
+  }
+  .Ellipse3 {
+    margin-top: 80px;
+  }
+  .Ellipse4 {
+    margin-top: 77px;
+  }
+  .arrow3 {
+    transform: rotate(120deg);
+    margin-top: -110px;
+  }
+  .Ellipse1 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background: #714fff;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1018px) and (max-width: 1400px) {
+  .arrow3 {
+    height: 150px;
+    margin-top: -147px;
+    margin-left: 380px;
+    transform: scaleY(-1) scaleX(-1) rotate(-12deg);
+  }
+  .Ellipse4 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background: #714fff;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: -375px;
+  }
+}
+@media screen and (min-width: 920px) and (max-width: 1017px) {
+  .Ellipse3 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background: #714fff;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 142px;
+    margin-top: -120px;
+    margin-left: 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrow2 {
+    height: 150px;
+    margin-top: 264px;
+    margin-left: -67px;
+    transform: rotate(126deg);
+  }
+  .arrow3 {
+    height: 150px;
+    margin-top: 133px;
+    margin-left: -297px;
+    position: relative;
+    margin-right: -453px;
+    transform: scaleY(-1) scaleX(-1) rotate(345deg);
+  }
+  .Ellipse4 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    background: #714fff;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-left: 104px;
+    margin-top: 319px;
+  }
+}
+
+
+.Ellipse1,
+.Ellipse2,
+.Ellipse3,
+.Ellipse4 {
+  /* Existing styles */
+
+  /* Add transition property for smooth color transition */
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Add hover styles to change the background color on hover */
+.Ellipse1:hover {
+  background-color: rgb(35, 17, 79); /* Change to the desired hover color */
+}
+
+.Ellipse2:hover {
+  background-color: rgb(35, 17, 79); /* Change to the desired hover color */
+}
+
+.Ellipse3:hover {
+  background-color: rgb(35, 17, 79); /* Change to the desired hover color */
+}
+
+.Ellipse4:hover {
+  background-color: rgb(35, 17, 79); /* Change to the desired hover color */
+}
